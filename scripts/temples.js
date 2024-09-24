@@ -17,7 +17,7 @@ footerParagraphs[1].id = 'lastModified';
 footerParagraphs[1].textContent = `Last modified: ${lastModified}`;
 
 // Update the footer copyright year and date last modified
-document.querySelector('footer p:first-child').textContent = `© ${currentYear} Your Name`;
+document.querySelector('footer p:first-child').textContent = `© ${currentYear} 🌴 Ronel Espaldon, 🌴 Philippines`;
 document.querySelector('footer p:nth-child(2)').textContent = `Last Modified: ${lastModified}`;
 
 // Add event listener to hamburger button
