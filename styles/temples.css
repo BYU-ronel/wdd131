@@ -1,0 +1,126 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif; /* Google Fonts API */
+    background-color: #f9f9f9; /* light gray background */
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #4f32d3; /* dark gray background */
+    color: #130404; /* white text */
+    padding: 1em;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Navigation Styles */
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #444; /* dark gray hover effect */
+    color: #fff;
+  }
+  
+  /* Main Styles */
+  
+  main {
+    max-width: 800px; /* limited width */
+    margin: 40px auto; /* centered horizontally */
+    padding: 20px;
+    background-color: #fff; /* white background */
+  }
+  
+  main h2 {
+    margin-top: 0;
+  }
+  
+  /* Figure Styles */
+  
+  figure {
+    margin: 20px;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  figcaption {
+    font-size: 18px;
+    color: #666; /* dark gray text */
+  }
+  
+  /* Grid Layout for Figure Elements */
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr; /* one column in mobile view */
+    gap: 20px;
+  }
+  
+  figure {
+    grid-column: 1;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #4f32d3; /* dark gray background */
+    color: #0a0a11; /* white text */
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  /* Hamburger Button Styles */
+  
+  .hamburger {
+    display: none; /* hide hamburger button by default */
+    background-color: #333; /* dark gray background */
+    color: #fff; /* white text */
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .hamburger:hover {
+    background-color: #444; /* dark gray hover effect */
+  }
+  
+  .show {
+    display: block; /* show navigation menu items when hamburger button is clicked */
+  }

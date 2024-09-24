@@ -1,0 +1,24 @@
+/* Media Query for Larger View */
+
+@media (min-width: 768px) {
+    /* Update Grid Layout for Figure Elements */
+  
+    main {
+      grid-template-columns: repeat(2, 1fr); /* two columns in larger view */
+    }
+  
+    figure {
+      grid-column: span 2;
+    }
+  
+    /* Update Navigation Styles */
+  
+    nav ul {
+      flex-wrap: nowrap;
+      justify-content: space-around;
+    }
+  
+    nav li {
+      margin-right: 40px;
+    }
+  }
