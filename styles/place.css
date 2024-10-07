@@ -1,94 +1,91 @@
-body {
-    font-family: Arial, sans-serif;
+/* Global CSS Variables */
+:root {
+    --primary-color: #FFC107; /* Orange color from the flag of Madagascar */
+    --secondary-color: #3E8E41; /* Green color from the flag of Madagascar */
+    --background-color: #F7F7F7; /* Light gray background color */
+    --text-color: #333; /* Dark gray text color */
+    --font-family: Arial, sans-serif; /* Font family */
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: var(--font-family);
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 800px;
-}
-
-.header {
-    background-color: #c62828;
-    color: #fff;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-color: var(--primary-color);
     padding: 20px;
     text-align: center;
-}
-
-h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-.content {
-    display: flex;
-    padding: 20px;
-}
-
-.data {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 20px;
-    border-radius: 10px 0 0 10px;
-    width: 50%;
-}
-
-.data ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.data li {
-    padding: 5px 0;
-}
-
-.data strong {
-    display: inline-block;
-    width: 120px;
-}
-
-.image {
-    width: 50%;
-    height: auto;
-}
-
-.image img {
+  }
+  
+  .hero picture {
     width: 100%;
-    height: auto;
+    height: 300px;
     object-fit: cover;
-}
-
-.weather {
-    background-color: #4caf50;
+  }
+  
+  /* Weather Section Styles */
+  .weather {
+    padding: 20px;
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
+  
+  .weather h2 {
+    margin-top: 0;
+  }
+  
+  .weather-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .weather-icon svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .weather-icon-large {
+    font-size: 48px;
+    margin-left: 10px;
+  }
+  
+  /* Pseudo Element for Weather Icon in Large View */
+  .weather-icon-large::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Media Query for Large View */
+  @media (min-width: 768px) {
+    .weather-icon svg {
+      display: none;
+    }
+    .weather-icon-large {
+      display: block;
+    }
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: var(--primary-color);
     color: #fff;
     padding: 10px;
-    border-radius: 0 10px 10px 0;
     text-align: center;
-    margin-top: 20px;
-}
-
-.weather .temp {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-.footer {
-    background-color: #c62828;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    font-size: 0.8em;
-}
+    clear: both;
+  }

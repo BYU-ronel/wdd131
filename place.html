@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Philippines Information</title>
+    <title>Place</title>
     <link rel="stylesheet" href="styles/place.css">
-    <script src="scripts/place.js" defer></script>
 </head>
+
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="header">
-                <h1>Philippines</h1>
-            </div>
-            <div class="content">
-                <div class="data">
-                    <h2>Data</h2>
-                    <ul>
-                        <li><strong>Area:</strong> 300,000 sq km</li>
-                        <li><strong>Population:</strong> 80 million</li>
-                        <li><strong>Capital:</strong> Manila</li>
-                        <li><strong>Languages:</strong> English, Tagalog</li>
-                        <li><strong>Currency:</strong> Philippine peso</li>
-                        <li><strong>Time Zone:</strong> UTC+8</li>
-                        <li><strong>Calling Code:</strong> +639</li>
-                        <li><strong>Internet TLD:</strong> .mg</li>
-                    </ul>
-                </div>
-                <div class="image">
-                    <img src="images/carabao.jpeg" alt="Carabao of the Philippines">
-                    <div class="weather">
-                        <h3>Weather ☁️</h3>
-                        <div class="temp">30°C</div>
-                        <p>Conditions: Sunny<br>Wind: 4.5 miles/h<br>Wind Chill: 22.2°C</p>
-                    </div>
-                </div>
-            </div>
-            <div class="footer">
-                &copy; 2024 Philippines Information
-            </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <picture>
+            <source srcset="hero-large.webp 1024w, hero-medium.webp 768w, hero-small.webp 480w"
+                sizes="(max-width: 1024px) 100vw, 1024px">
+            <img src="images/hero-large.webp" alt="Hero Image">
+        </picture>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="weather">
+        <h2>Weather</h2>
+        <div class="weather-icon">
+            <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                    d="M23.215 4.585l-10.455 10.455-4.795-4.795-4.795 4.795-10.455-10.455 4.795-4.795 4.795 4.795 10.455 10.455 4.795-4.795 4.795 4.795 10.455-10.455-4.795-4.795-4.795 4.795z" />
+            </svg>
+            <span class="weather-icon-large">⛅</span>
         </div>
-    </div>
+        <p>Temperature: <span id="temperature">20°C</span></p>
+        <p>Wind Speed: <span id="wind-speed">10 km/h</span></p>
+        <p>Wind Chill: <span id="wind-chill"></span></p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; <span id="year"></span> | Last Modified: <span id="last-modified"></span></p>
+    </footer>
+
+    <script src="scripts/place.js" defer></script>
 </body>
+
 </html>
