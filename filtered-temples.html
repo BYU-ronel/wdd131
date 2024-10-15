@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals, a course by Ronel Espaldon, Designing, developing, testing, and then deploying a temple album page using your own selections of temple pictures.">
+    <meta name="author" content="Ronel Espaldon">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Temples</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Home</h2>
+        <div class="res-grid">
+            <div class="card">
+                <img src="images/aba-nigeria.jpg" alt="Aba Nigeria Temple" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-title">Aba Nigeria</h2>
+                    <p class="card-details">LOCATION: Aba, Nigeria</p>
+                    <p class="card-details">DEDICATED: 2005, August, 7</p>
+                    <p class="card-details">SIZE: 11500 sq ft</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/manti-utah.jpg" alt="Manti Utah Temple" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-title">Manti Utah</h2>
+                    <p class="card-details">LOCATION: Manti, Utah, United States</p>
+                    <p class="card-details">DEDICATED: 1888, May, 21</p>
+                    <p class="card-details">SIZE: 74792 sq ft</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/Payson-Utah.jpg" alt="Payson Utah Temple" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-title">Payson Utah</h2>
+                    <p class="card-details">LOCATION: Payson, Utah, United States</p>
+                    <p class="card-details">DEDICATED: 2015, June, 7</p>
+                    <p class="card-details">SIZE: 96630 sq ft</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/Yigo-Guam.jpg" alt="Yigo Guam Temple" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-title">Yigo Guam</h2>
+                    <p class="card-details">LOCATION: Yigo Guam</p>
+                    <p class="card-details">DEDICATED: 2020, May, 2</p>
+                    <p class="card-details">SIZE: 6861 sq ft</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/Washington-D.C..jpg" alt="Washington D.C. Temple" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-title">Washington D.C.</h2>
+                    <p class="card-details">LOCATION: Kensington, Maryland, United States</p>
+                    <p class="card-details">DEDICATED: 1974, November, 19</p>
+                    <p class="card-details">SIZE: 156558 sq ft</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/Lima-Perú.jpg" alt="Lima Perú Temple" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-title">Lima Perú</h2>
+                    <p class="card-details">LOCATION: Lima, Perú</p>
+                    <p class="card-details">DEDICATED: 1986, January, 10</p>
+                    <p class="card-details">SIZE: 9600 sq ft</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/Mexico-City.jpg" alt="Mexico City Temple" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-title">Mexico City Mexico</h2>
+                    <p class="card-details">LOCATION: Mexico City, Mexico</p>
+                    <p class="card-details">DEDICATED: 1983, December, 2</p>
+                    <p class="card-details">SIZE: 116642 sq ft</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/Urdaneta-City.jpg" alt="Urdaneta City Temple" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-title">Urdaneta City Philippines</h2>
+                    <p class="card-details">LOCATION: Urdaneta City, Philippines</p>
+                    <p class="card-details">DEDICATED: 2024, April, 28</p>
+                    <p class="card-details">SIZE: 32604 sq ft</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/Manila-Philippines.jpg" alt="Manila Philippines Temple" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-title">Manila Philippines</h2>
+                    <p class="card-details">LOCATION: Quezon City, Philippines</p>
+                    <p class="card-details">DEDICATED: 1984, September, 25-27</p>
+                    <p class="card-details">SIZE: 26683 sq ft</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/Cebu-City-Philippines.jpg" alt="Cebu City Philippines Temple" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-title">Cebu City Philippines</h2>
+                    <p class="card-details">LOCATION: Cebu City, Philippines</p>
+                    <p class="card-details">DEDICATED: 2010, June, 13</p>
+                    <p class="card-details">SIZE: 29556 sq ft</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🌴 Ronel Espaldon, 🌴 Philippines</p>
+        <p id="lastModified">Last Modified: <span id="lastModifiedDate"></span></p>
+    </footer>
+</body>
+
+</html>
