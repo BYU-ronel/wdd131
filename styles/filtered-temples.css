@@ -26,6 +26,7 @@ body {
     margin-bottom: 10px;
   }
   
+  
   .info {
     text-align: center;
   }
@@ -39,4 +40,3 @@ body {
     height: 150px;
     object-fit: cover;
   }
-  
