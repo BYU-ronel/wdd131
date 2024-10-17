@@ -1,0 +1,20 @@
+.card {
+    padding: 20px;
+    display: flex;
+    padding-left: 10px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(54, 50, 164, 0.2);
+    width: 440px;
+    border-radius: 20px;
+}
+
+.card-body {
+    margin-left: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.cardImage {
+    height: 300px;
+    width: 300px;
+}

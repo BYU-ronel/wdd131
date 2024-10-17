@@ -61,15 +61,6 @@ mediaQuery.addListener((e) => {
   }
 });
 
-let d = new Date();
-document.getElementById("currentYear").innerHTML = `&copy; ${d.getFullYear()}`;
-document.querySelector('#lastModified').textContent = `Last Modification: ${lastModified}`;
-
-const hambutton = document.querySelector('#hambutton');
-
-hambutton.addEventListener('click', function() {
-  // code to be executed when the button is clicked
-});
 
 function toggleActive(element) {...
 }
