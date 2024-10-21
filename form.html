@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/products.css">
+    <title>Product Review Form</title>
+</head>
+<body>
+    <form action="review.html" method="get" id="reviewForm">
+        <label for="productName">Product Name:</label>
+        <select id="productName" name="productName" required>
+            <option value="" disabled selected>Select a Product ...</option>
+            <!-- Options will be populated by JavaScript -->
+        </select>
+
+        <fieldset>
+            <legend>Overall Rating:</legend>
+            <div id="rating">
+                <!-- Radio buttons will be populated by JavaScript -->
+            </div>
+        </fieldset>
+
+        <label for="installationDate">Date of Installation:</label>
+        <input type="date" id="installationDate" name="installationDate" required>
+
+        <fieldset>
+            <legend>Useful Features:</legend>
+            <label><input type="checkbox" id="feature1" name="usefulFeatures" value="Feature 1"> Feature 1</label>
+            <label><input type="checkbox" id="feature2" name="usefulFeatures" value="Feature 2"> Feature 2</label>
+            <label><input type="checkbox" id="feature3" name="usefulFeatures" value="Feature 3"> Feature 3</label>
+        </fieldset>
+
+        <label for="writtenReview">Written Review:</label>
+        <textarea id="writtenReview" name="writtenReview"></textarea>
+
+        <label for="userName">User  Name:</label>
+        <input type="text" id="userName" name="userName">
+
+        <input type="submit" value="Submit Review">
+    </form>
+    <footer>
+        <!-- Common footer content -->
+    </footer>
+    <script src="scripts/products.js"></script>
+</body>
+</html>
