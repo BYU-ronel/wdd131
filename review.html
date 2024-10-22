@@ -11,8 +11,10 @@
     <p>Your review has been submitted successfully.</p>
     <p>Number of reviews submitted: <span id="reviewCount">0</span></p>
     <footer>
-        <!-- Common footer content -->
+        <p><p>&copy; <span id="year"></span>  <span id="last-modified"></span> | Ronel Espaldon, Philippines</p>
+        <p id="lastModified"></p>
     </footer>
+    <script src="scripts/products.js" defer></script>
     <script>
         // JavaScript to handle review count
         let reviewCount = localStorage.getItem('reviewCount') || 0;
