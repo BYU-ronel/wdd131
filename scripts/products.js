@@ -45,16 +45,3 @@ const products = [
       productSelect.appendChild(option);
   });
 
-  // Populate rating options
-for (let i = 1; i <= 5; i++) {
-  const radio = document.createElement('input');
-  radio.type = 'radio';
-  radio.id = `rating${i}`;
-  radio.name = 'rating';
-  radio.value = i;
-  const label = document.createElement('label');
-  label.htmlFor = `rating${i}`;
-  label.textContent = i;
-  ratingContainer.appendChild(radio);
-  ratingContainer.appendChild(label);
-}
