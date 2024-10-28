@@ -1,0 +1,67 @@
+Site Name
+Site Name: TaskMaster
+Reason for Selection: The name "TaskMaster" was chosen because it conveys a sense of control and efficiency in managing tasks. It implies that users will have mastery over their to-do lists, making it an appealing choice for individuals looking to enhance their productivity. The name is memorable, easy to spell, and relates directly to the app's purpose.
+Site Purpose
+Purpose: The purpose of the TaskMaster app is to provide users with a simple and effective platform for managing their daily tasks. The site will allow users to create new tasks, categorize them, set due dates, and mark them as complete. Additionally, it will offer features such as reminders, priority settings, and a user-friendly interface to enhance productivity. The content will focus on helping users streamline their task management process and improve their overall organization.
+Scenarios
+Scenario 1: "How can I add a new task to my to-do list?"
+
+This question reflects a common action that users will want to perform. The content should provide clear instructions or a user guide on how to add tasks, including any features like setting due dates or assigning categories.
+Scenario 2: "Can I set reminders for my tasks?"
+
+This question addresses the need for users to stay on top of their deadlines. The content should explain how to set reminders, what types of notifications are available, and how users can customize these settings.
+Color Schema
+Primary Color: #3498db (Blue)
+
+Usage: This color will be used for headings, buttons, and key accents throughout the app. It conveys trust and professionalism, making it suitable for a productivity tool.
+Secondary Color: #2ecc71 (Green)
+
+Usage: This color will be used for completed tasks, success messages, and highlights. Green is often associated with growth and success, reinforcing the app's purpose of helping users achieve their goals.
+Typography
+Font 1: Roboto
+
+Usage: This font will be used for body text and general content. It is modern, clean, and highly readable, making it suitable for a task management app.
+Font 2: Montserrat
+
+Usage: This font will be used for headings and titles. Its geometric style adds a touch of modernity and professionalism, making it stand out.
+Font 3: Courier New
+
+Usage: This font can be used for code snippets or special sections, such as task descriptions or notes. Its monospaced style provides a distinct look for technical content.
+Wireframe
+For the wireframe, you can create simple sketches that represent the layout of your app's homepage for both mobile and desktop views. Below is a textual representation of what the wireframes might include:
+
+Mobile View Wireframe
+----------------------------------------------------
+|                    [Logo]                        |
+|                     [Menu]                       |
+----------------------------------------------------
+|                  [Input Task Field]              |
+|                     [Add Button]                 |
+----------------------------------------------------
+|                  [Your Tasks]                    |
+|  [Task 1] [Complete]                             |
+|  [Task 2] [Complete]                             |
+|  [Task 3] [Complete]                             |
+----------------------------------------------------
+|                 [Footer Links]                   |
+----------------------------------------------------
+
+Desktop View Wireframe
+----------------------------------------------------
+| [Logo] [Search] [User  Profile] [Dashboard] [Settings] |
+----------------------------------------------------
+|                  [Input Task Field]              |
+|                     [Add Button]                 |
+----------------------------------------------------
+|                  [Your Tasks]                    |
+|  [Task 1] [Complete]                             |
+|  [Task 2] [Complete]                             |
+|  [Task 3] [Complete]                             |
+----------------------------------------------------
+|                 [Sidebar: Filters]               |
+----------------------------------------------------
+|                 [Footer Links]                   |
+----------------------------------------------------
+
+Summary
+This site plan provides a comprehensive overview of your To-Do List app, including the site name, purpose, user scenarios, color scheme, typography, and wireframe layout. Each section is designed to guide the development of the app while ensuring that it meets user needs and expectations.
